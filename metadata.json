@@ -1,0 +1,8 @@
+{
+  "name": "Trung-Việt Video Translator Pro",
+  "description": "Ứng dụng dịch video Trung sang Việt với tính năng tự động trích xuất SRT, làm mờ phụ đề cũ, và lồng tiếng AI ngọt ngào.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
