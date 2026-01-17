@@ -7,6 +7,9 @@ export default defineConfig(({ mode }) => {
 
   return {
     base: '/vietsub-ai-app/',
+    build: {
+      outDir: 'docs', // ✅ DÒNG QUYẾT ĐỊNH
+    },
     plugins: [react()],
     server: {
       port: 3000,
