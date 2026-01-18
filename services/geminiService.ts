@@ -83,7 +83,7 @@ export const extractSubtitlesFromVideo = async (
   videoBase64: string, 
   direction: TranslationDirection = 'zh-vi'
 ): Promise<SubtitleEntry[]> => {
-  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+  const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
   const sourceLang = direction === 'zh-vi' ? "Chinese" : "Vietnamese";
   
   return withRetry(async () => {
